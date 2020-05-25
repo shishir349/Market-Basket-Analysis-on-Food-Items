@@ -1,0 +1,321 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Amazon Fine Foods</title>
+
+    
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link href='https://fonts.googleapis.com/css?family=Charmonman' rel='stylesheet'>
+
+        
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-3d.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+
+
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+        ::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background:white; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:white; 
+}
+
+</style>
+
+    </head>
+    <body style="background-color: lightgrey">
+        <div class="container-fluid">
+            <div class="col-sm-12">
+                <h2 style="margin-top: 10px; margin-bottom: 0px; text-align: center;
+                 color: black; font-size :40px; font-weight:bold; font-family: Charmonman">Amazon Fine Foods</h2>
+            </div>
+            <div class="col-sm-12" style="margin-left: 12px;width :97%;margin-top: 14px; background-color: gold; height: 130px">
+                <div class="col-sm-2" style="margin-top: 22px">
+                    <div class="col-sm-6">
+                        <i class='fa fa-amazon' style="font-size: 59px; color: black"></i>
+                    </div>
+                 
+                    <h4 style="color: #666666">Parent Company</h4>
+                    <h3 style="color: black">Amazon</h3>
+                    <div class="vl"></div>
+                </div>
+                <div class="col-sm-2" style="margin-top: 22px">
+                    <div class="col-sm-6">
+                        <i class='fas fa-user' style="font-size: 59px; color: black"></i>
+                    </div>
+                 
+                    <h4 style="color: #666666">No. of Customers</h4>
+                    <h3 style="color: black">256,059</h3>
+                    <div class="vl"></div>
+                </div>
+                <div class="col-sm-2" style="margin-top: 22px">
+                    <div class="col-sm-6">
+                        <i class='fas fa-boxes' style=" margin-top: 10px; margin-left: -5px;
+                        font-size: 51px; color: black"></i>
+
+                    </div>
+                 
+                    <h4 style="color: #666666">No. of Products</h4>
+                    <h3 style="color: black">74,258</h3>
+                    <div class="vl"></div>
+                </div>
+               
+                <div class="col-sm-2" style="margin-top: 22px">
+                    <div class="col-sm-6">
+                        <i class='fas fa-edit' style="font-size: 54px;margin-top:5px; color: black"></i>
+                    </div>
+                 
+                    <h4 style="color: #666666">No. of Reviews</h4>
+                    <h3 style="color: black">568,454</h3>
+                    <div class="vl"></div>
+                </div>
+                <div class="col-sm-2" style="margin-top: 22px">
+                    <div class="col-sm-6">
+                        <i class='far fa-comment' style="font-size: 54px; margin-top: 5px; color: black"></i>
+                    </div>
+                 
+                    <h4 style="color: #666666">Avg Words in Reviews</h4>
+                    <h3 style="color: black">56 Words</h3>
+                    <div class="vl"></div>
+                </div>
+                <div class="col-sm-2" style="margin-top: 22px">
+                    <div class="col-sm-6">
+                        <i class='fas fa-clock' style="font-size: 59px; color: black"></i>
+                    </div>
+                 
+                    <h4 style="color: #666666">Timespan of Analysis</h4>
+                    <h3 style="color: black">12 Years</h3>
+                   
+                </div>
+              
+                
+
+            </div>
+
+
+            <div class="col-sm-2" style="margin-top: 10px; margin-left: 13.7px; height: 160px; background-color: #f7f8ed;
+            border-radius: 5px">
+
+            <h1 style="text-align: center; color: goldenrod; font-size: 70px">18</h1>
+            <h4 style="text-align: center; color: black; margin-top: 15px">Reviews Useful to more than 500 Users
+            </h4>
+           
+  
+          </div>
+          <div class="col-sm-2" style="margin-top: 10px; height: 160px; margin-left: 10px; background-color: goldenrod;
+          border-radius: 5px;">
+           <h4 style="text-align: center; color: black; margin-top: 4px; font-weight: bold">Most Common Positive Words in Reviews</h4>
+           <h5 style="text-align: center; color: black; margin-top: 2px">Delight</h5>
+           <h5 style="text-align: center; color: black; margin-top: 2px">Tasty</h5>
+           <h5 style="text-align: center; color: black; margin-top: 2px">Heavenly</h5>
+           <h5 style="text-align: center; color: black; margin-top: 2px">Satisfying</h5>
+           <h5 style="text-align: center; color: black; margin-top: 2px">Enjoyable</h5>
+           <div id="container2"></div>
+  
+          </div>
+          <div class="col-sm-4" style="margin-top: 10px; width: 362px;margin-left: 10px;height: 160px; 
+          background-color: black; border-radius: 5px">
+          <h3 style="text-align: center; color: whitesmoke;font-family: Alata; 
+          margin-top: 15px;
+           font-size: 22px;">
+           Usefulness of Reviews</h3>
+
+          <div class="col-sm-6" style="text-align:center">
+              
+              <i class='fas fa-thumbs-up' style="margin-top: 15px;font-size: 42px; color:gold"></i>
+             
+              <h4 style="text-align: center; color: lightgrey; margin-top: 4px">Useful Reviews</h4>
+              <h4 style="color: white; margin-top: 3px">3 Million </h4>
+  
+          </div>
+          <div class="col-sm-6" style="text-align: center">
+              
+              <i class='fas fa-thumbs-down' style="margin-top: 16px;font-size: 42px; color:gold"></i>
+              
+              <h4 style="text-align: center; color: lightgrey; margin-top: 4px">Useless Reviews</h4>
+              <h4 style="color: white; margin-top: 3px">30 Thousand</h4>
+              
+          </div>
+  
+          </div>
+          <div class="col-sm-2" style="margin-top: 10px; height: 160px; margin-left: 10px;background-color: goldenrod;
+          border-radius: 5px">
+              <h4 style="text-align: center; color: black; margin-top: 4px; font-weight: bold">Most Common Negative Words in Reviews</h4>
+              <h5 style="text-align: center; color: black; margin-top: 2px">Expensive</h5>
+              <h5 style="text-align: center; color: black; margin-top: 2px">Bad</h5>
+              <h5 style="text-align: center; color: black; margin-top: 2px">Tasteless</h5>
+              <h5 style="text-align: center; color: black; margin-top: 2px">Expired</h5>
+              <h5 style="text-align: center; color: black; margin-top: 2px">Not as Advertised</h5>
+           <div id="container3"></div>
+          
+          </div>
+          <div class="col-sm-2" style="margin-top: 10px; height: 160px; margin-left: 10px;background-color: #f7f8ed;
+          border-radius: 5px">
+            <h1 style="text-align: center; color: goldenrod; font-size: 70px">60%</h1>
+            <h4 style="text-align: center; color: black; margin-top: 15px">Number of Users Voted for Usefulness of Reviews
+            </h4>
+           <div id="container4"></div>
+          
+          </div>
+  
+          <div class="col-sm-3" style="margin-top: 10px; margin-left: 13.7px; height: 250px; background-color: #f7f8ed;
+          border-radius: 5px">
+          <img src = 'finefood.jpg' width='326', height='250' style="margin-left:-13px">
+          <div id="container5"></div>
+  
+          </div>
+         
+  
+          <div class="col-sm-5" style="margin-top: 10px; margin-left: 10px; height: 250px; background-color: #f7f8ed;
+          border-radius: 5px">
+          <h4 style="text-align: center; color: #051f20; margin-top: 10px">Ratings of the Reviews</h4>
+          <div id="container7" style="height: 216px;"></div>
+  
+          </div>
+  
+          <div class="col-sm-4" style="margin-top: 10px; margin-left: 10px; height: 250px;  width: 380px;background-color: black;
+          border-radius: 5px; overflow:auto">
+          <h4 style="text-align: center; color: white; margin-top: 12px; font-size: 15px">Information about the Data</h4>
+          <table style="margin-top: 10px; margin-bottom: 10px; width: 100%; background-color: black">
+              <tr style="background-color: goldenrod; margin-bottom: 0px;text-align:center; color: black; font-size: 14px">
+                  <th><b>Attribute Name</b></th>
+                  <th><b>Explanation</b></th>
+                  
+              </tr>
+  
+        
+              <tr style="text-align: center;font-size: 13px">
+             
+                  <td style="color: goldenrod; padding-top: 3px; font-size: 14px"><b>Product Id</b></td>
+                  <td style="color:  goldenrod;font-size: 15px">unique identifier for the product</td>
+             
+              </tr>
+            
+              <tr style="text-align: center;font-size: 13px">
+             
+                  <td style="color: goldenrod; padding-top: 3px; font-size: 14px"><b>User Id</b></td>
+                  <td style="color: goldenrod;font-size: 15px">unqiue identifier for the user</td>
+              </tr>
+              
+              <tr style="text-align: center;font-size: 13px">
+             
+                  <td style="color: goldenrod; padding-top: 3px; font-size: 14px"><b>Helpfulness Numerator</b></td>
+                  <td style="color: goldenrod;font-size: 15px">number of users who found the review helpful</td>
+              </tr>
+              <tr style="text-align: center;font-size: 13px">
+             
+                  <td style="color: goldenrod; padding-top: 3px; font-size: 14px"><b>Helpfulness Denominator</b></td>
+                  <td style="color:goldenrod;font-size: 15px">number of users who indicated whether they found the review helpful or not</td>
+              </tr>
+              <tr style="text-align: center;font-size: 13px">
+             
+                  <td style="color: goldenrod; padding-top: 3px; font-size: 14px"><b>Score</b></td>
+                  <td style="color: goldenrod; font-size: 15px"> rating between 1 and 5</td>
+              </tr>
+  
+              <tr style="text-align: center;font-size: 13px">
+             
+                  <td style="color:goldenrod; padding-top: 3px; font-size: 14px"><b>Summary</b></td>
+                  <td style="color:goldenrod;font-size: 15px">brief summary of the review</td>
+              </tr>
+  
+              <tr style="text-align: center;font-size: 13px">
+             
+                  <td style="color: goldenrod; padding-top: 3px; font-size: 14px"><b>Text</b></td>
+                  <td style="color: goldenrod; font-size: 15px">text of the review</td>
+              </tr>
+          </table>
+          <div id="container8"></div>
+  
+          </div>
+
+        </div>
+
+
+        <script>
+            Highcharts.chart('container7', {
+    chart: {
+        type: 'column',
+        options3d: {
+            enabled: true,
+            alpha: 10,
+            beta: 0,
+            depth: 70
+        }
+    },
+    title: {
+        text: ' '
+    },
+    colors: ['black'],
+    plotOptions: {
+        column: {
+            depth: 25
+        }
+    },
+    xAxis: {
+        categories: ['1','2','3', '4','5'],
+        labels: {
+            skew3d: true,
+            style: {
+                fontSize: '16px'
+            }
+        }
+    },
+    yAxis: {
+        title: {
+            text: null
+        }
+    },
+    series: [{
+        name: 'Ratings',
+        data: [ 52268, 29769, 42640, 80655, 363122]
+
+    }]
+});
+
+        </script>
+    </body>
+
+</html>-
